@@ -1,92 +1,112 @@
-# MOVA Digital
+# MOVA Digital — Site Institucional
 
-**Site institucional responsivo desenvolvido com HTML, CSS e JavaScript.**
+Site institucional desenvolvido para a **MOVA Digital**, agência focada em marketing, design, tecnologia, inteligência artificial e automação.
 
-<img src="assets/logo-mova.png" alt="Logo da MOVA Digital" width="160">
+O projeto foi desenvolvido com foco em uma experiência moderna, responsiva e objetiva, apresentando os serviços da agência e facilitando o contato com potenciais clientes.
 
-## Sobre o projeto
+🌐 **Projeto online:**  
+https://araujin.github.io/mova-digital/
 
-O site apresenta a MOVA Digital, seu método de trabalho, planos de acompanhamento e serviços avulsos. Os botões de contato direcionam o visitante ao WhatsApp com mensagens específicas para cada plano ou contexto.
+---
 
-A proposta é organizar a apresentação comercial da agência em uma página de navegação simples, com identidade visual própria e adaptação para diferentes tamanhos de tela.
+## 🚀 Tecnologias utilizadas
 
-## Funcionalidades
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- GitHub Pages
 
-- Apresentação do método MOVA: Mapear, Organizar, Valorizar e Alcançar.
-- Cards dos planos Essencial, Crescimento e Performance.
-- Seção de serviços e chamadas para solicitar propostas.
-- Links para WhatsApp e Instagram.
-- Menu mobile com estado acessível, fechamento por `Esc` e navegação por teclado.
-- Cabeçalho que muda de aparência durante a rolagem.
-- Animações de entrada com `IntersectionObserver`, respeitando a preferência por movimento reduzido.
-- Conteúdo e navegação disponíveis mesmo sem JavaScript.
-- Atualização automática do ano no rodapé.
+---
 
-## Tecnologias e decisões
+## 💻 Sobre o projeto
 
-| Tecnologia | Aplicação |
-| --- | --- |
-| HTML | Estrutura semântica, navegação interna e conteúdo |
-| CSS | Layout com Grid e Flexbox, variáveis visuais e media queries |
-| JavaScript | Menu, gerenciamento de foco, rolagem e animações |
-| Google Fonts | Fontes DM Sans e Manrope, com alternativas locais |
-| Node.js | Testes opcionais da lógica de interação, sem dependências externas |
+O site foi desenvolvido como uma aplicação front-end estática, sem utilização de frameworks, priorizando código simples, organização e desempenho.
 
-O site é estático: não exige instalação de pacotes nem etapa de compilação para funcionar. Os contatos abrem serviços externos; o projeto não contém backend, banco de dados, checkout ou integração com a API do WhatsApp.
+Entre os principais pontos trabalhados estão:
 
-## Como executar
+- Layout responsivo para diferentes tamanhos de tela
+- Navegação entre seções
+- Menu adaptado para dispositivos móveis
+- Interações desenvolvidas com JavaScript
+- Estrutura semântica em HTML
+- Estilização personalizada em CSS
+- Integração com canais de contato da agência
+- Publicação e versionamento utilizando Git e GitHub
+- Deploy através do GitHub Pages
 
-1. Baixe ou clone o repositório.
-2. Abra `index.html` no navegador.
+---
 
-Para usar um servidor local, com Python instalado, execute na pasta do projeto:
+## 📁 Estrutura do projeto
 
-```bash
-python -m http.server 8000
+```text
+mova-digital/
+│
+├── assets/
+│   └── logo-mova.png
+│
+├── tests/
+│   └── navigation.test.cjs
+│
+├── index.html
+├── style.css
+├── script.js
+├── package.json
+├── .gitignore
+└── README.md
 ```
 
-Depois, acesse `http://localhost:8000`.
+---
 
-As fontes externas e os destinos de contato precisam de internet. O conteúdo local continua disponível com fontes alternativas quando o Google Fonts não carrega.
+## 🧪 Testes
 
-## Estrutura
+O projeto possui testes automatizados para validar comportamentos relacionados à navegação da aplicação.
 
-| Caminho | Conteúdo |
-| --- | --- |
-| `index.html` | Página principal |
-| `style.css` | Estilos e regras responsivas |
-| `script.js` | Interações da interface |
-| `assets/logo-mova.png` | Identidade visual |
-| `tests/navigation.test.cjs` | Testes de comportamento com DOM simulado |
-
-## Verificações
-
-Com uma versão do Node.js que suporte o executor `node:test`:
+Para executar os testes localmente:
 
 ```bash
-npm run check
 npm test
 ```
 
-Os testes cobrem abertura e fechamento do menu, tecla `Esc`, foco, redimensionamento e alternativas às animações. Eles usam um DOM simulado e não substituem testes em navegadores reais.
+---
 
-Antes de divulgar uma versão, confira também:
+## ▶️ Executando localmente
 
-- Layout em celular, tablet e desktop.
-- Navegação com `Tab`, `Shift+Tab` e `Esc`.
-- Conteúdo com JavaScript desativado e movimento reduzido.
-- Logo, fontes, links internos e destinos de WhatsApp e Instagram.
+Clone o repositório:
 
-## Personalização
+```bash
+git clone https://github.com/Araujin/mova-digital.git
+```
 
-- Conteúdo e links comerciais: `index.html`.
-- Cores, fontes e espaçamentos: `style.css`.
-- Regras de interação: `script.js`.
+Entre na pasta:
 
-A folha de estilos mantém a ordem da cascata original, incluindo os ajustes de direção editorial. Os contatos, planos e identidade pertencem à MOVA Digital; revise esses dados ao adaptar o projeto.
+```bash
+cd mova-digital
+```
 
-## Autor
+Abra o arquivo `index.html` no navegador.
 
-**Pedro Araujo** — Analista de Sistemas Júnior e estudante de Ciência da Computação.
+---
 
-Projeto da MOVA Digital apresentado como parte do portfólio de desenvolvimento web.
+## 🌐 Deploy
+
+O projeto está publicado utilizando **GitHub Pages**.
+
+Acesse:
+
+https://araujin.github.io/mova-digital/
+
+---
+
+## 👨‍💻 Autor
+
+**Pedro Araujo**
+
+Estudante de Ciência da Computação e profissional da área de tecnologia, com experiência em desenvolvimento de soluções, automações, integrações e análise de sistemas.
+
+GitHub: https://github.com/Araujin
+
+---
+
+Desenvolvido como parte do portfólio de projetos de desenvolvimento e tecnologia.
